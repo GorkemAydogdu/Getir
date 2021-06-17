@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".activity.UrunlerActivity">
+
+    <TextView
+        android:id="@+id/textViewUrunler"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="@dimen/urunler"
+        android:layout_marginTop="@dimen/urunler"
+        android:text="@string/urunler"
+        android:textColor="@color/color_black"
+        android:textSize="@dimen/urunlerSize"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/rvUrunler"
+        android:layout_width="@dimen/rv_width"
+        android:layout_height="match_parent"
+        android:layout_marginStart="@dimen/rv"
+        android:layout_marginTop="@dimen/urunWidth"
+        android:layout_marginEnd="@dimen/rv"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textViewUrunler" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

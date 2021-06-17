@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".activity.KategoriActivity">
+
+    <ImageView
+        android:id="@+id/imageViewLogo"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/getirKapak"
+        android:scaleType="centerCrop"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/getir1" />
+
+    <SearchView
+        android:id="@+id/searchviewKategori"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/searchView"
+        android:iconifiedByDefault="false"
+        android:queryHint="@string/KategoriAra"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/imageViewLogo">
+
+    </SearchView>
+
+    <TextView
+        android:id="@+id/textViewKategori"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="@dimen/kategori"
+        android:layout_marginTop="@dimen/kategori"
+        android:text="@string/Kategori"
+        android:textColor="@color/color_black"
+        android:textSize="@dimen/kategori_size"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/searchviewKategori" />
+
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/rv_kategori"
+        android:layout_width="@dimen/rv_width"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="@dimen/rv"
+        android:layout_marginTop="@dimen/rvY"
+        android:layout_marginEnd="@dimen/rv"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textViewKategori" />
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

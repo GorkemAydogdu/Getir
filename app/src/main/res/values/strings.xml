@@ -1,0 +1,71 @@
+<resources>
+    <string name="app_name">Getir</string>
+
+    <string name="counter">Süre Doluyor...</string>
+    <string name="finish">Süre Tamamlandı.</string>
+
+    <string name="uyarı">UYARI!</string>
+    <string name="mesaj">Uygulamayı kullanabilmek için internet bağlantısı gereklidir</string>
+    <string name="alertCikis">Uygulamadan çıkmak istiyor musunuz?</string>
+    <string name="internet_ac">İnterneti Aç</string>
+    <string name="cikis">Uygulamayı Kapat</string>
+    <string name="Evet">Evet</string>
+    <string name="Hayir">Hayir</string>
+
+    <string name="editTextCepTel">Cep Telefonu</string>
+    <string name="editTextSifre">Şifre</string>
+    <string name="editTextAdSoyad">Ad Soyad</string>
+    <string name="editTextEposta">E-posta</string>
+
+    <string name="btnUyeOl">Üye Ol</string>
+    <string name="btnGirisYap">Giriş Yap</string>
+
+    <string name="proggresdialogBaslik">Kaydediliyor...</string>
+    <string name="proggresdialogMesaj">Hesap Oluşturuluyor lütfen bekleyiniz.</string>
+
+    <string name="tblAdSoyad">Ad Soyad</string>
+    <string name="tblSifre">Sifre</string>
+    <string name="tblEposta">Eposta</string>
+    <string name="tblCepTel">Cep Telefonu</string>
+
+    <string name="HATA">HATA : </string>
+
+    <string name="Kullanicilar">Kullanicilar</string>
+    <string name="AdSoyad">AdSoyad</string>
+    <string name="CepTelefonu">Cep Telefonu</string>
+    <string name="Email">Email</string>
+    <string name="Sifre">Sifre</string>
+
+    <string name="KategoriAra">Ara</string>
+    <string name="Kategori">Kategoriler</string>
+
+    <string name="kategoriAdi">Kategori Adi</string>
+    <string name="tblKategori">Kategoriler</string>
+
+    <string name="urunler">Urunler</string>
+
+    <string name="listeTuru">Liste Türü</string>
+
+    <string name="ismeGoreArtan">Isme göre artan</string>
+    <string name="ismeGoreAzalan">Isme göre azalan</string>
+
+    <string name="urunAdi">Urun Adi</string>
+    <string name="Porsiyon">2 x 5 L</string>
+    <string name="Fiyat">9.95</string>
+
+    <string name="tblUrun">Urunler</string>
+    <string name="sutunAdı">kategoriAdi</string>
+    <string name="kategori">kategoriAdi</string>
+    
+    <string name="urunAciklama">Urun Hakkinda</string>
+
+    <string name="urunDetayAdi">UrunAdi</string>
+    <string name="urunDetayResim">Resim</string>
+    <string name="urunDetayHakkinda">Hakkinda</string>
+    <string name="urunDetayFiyat">Fiyat</string>
+    <string name="urunDetayPorsiyon">Porsiyon</string>
+
+    <string name="EpostaSifre">Eposta ve Şifre Boş Bırakılamaz!</string>
+    <string name="EpostaIsımCepSifre">Eposta,Şifre,İsim ve CepTelefonu Boş Bırakılamaz!</string>
+
+</resources>

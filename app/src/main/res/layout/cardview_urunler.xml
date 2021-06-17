@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:cardview="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="@dimen/cardView"
+    android:layout_height="wrap_content"
+    android:layout_margin="@dimen/cardViewMargin"
+    cardview:cardBackgroundColor="@color/color_white">
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <ImageView
+            android:id="@+id/imageViewUrun"
+            android:layout_width="@dimen/urunWidth"
+            android:layout_height="wrap_content"
+            android:scaleType="fitXY"
+            cardview:layout_constraintEnd_toEndOf="parent"
+            cardview:layout_constraintStart_toStartOf="parent"
+            cardview:layout_constraintTop_toTopOf="parent"
+            tools:srcCompat="@tools:sample/avatars" />
+
+        <TextView
+            android:id="@+id/textViewUrunAdi"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="@string/urunAdi"
+            android:textAlignment="center"
+            android:textColor="@color/color_black"
+            android:textSize="@dimen/textSize14"
+            cardview:layout_constraintEnd_toEndOf="parent"
+            cardview:layout_constraintStart_toStartOf="parent"
+            cardview:layout_constraintTop_toBottomOf="@+id/imageViewUrun" />
+
+        <TextView
+            android:id="@+id/textViewFiyat"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="@string/Fiyat"
+            android:textAlignment="center"
+            android:textColor="@color/color_purple"
+            android:textSize="@dimen/textSize14"
+            cardview:layout_constraintEnd_toEndOf="parent"
+            cardview:layout_constraintStart_toStartOf="parent"
+            cardview:layout_constraintTop_toBottomOf="@+id/textViewUrunAdi" />
+
+        <TextView
+            android:id="@+id/textViewPorsiyon"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="@string/Porsiyon"
+            android:textAlignment="center"
+            android:textColor="@color/color_grey"
+            android:textSize="@dimen/textSize14"
+            cardview:layout_constraintEnd_toEndOf="parent"
+            cardview:layout_constraintStart_toStartOf="parent"
+            cardview:layout_constraintTop_toBottomOf="@+id/textViewFiyat" />
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+</androidx.cardview.widget.CardView>

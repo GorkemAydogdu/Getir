@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "618786258627",
+    "project_id": "getir-42775",
+    "storage_bucket": "getir-42775.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:618786258627:android:f53e45c7e3c35066db6c76",
+        "android_client_info": {
+          "package_name": "com.h5190063_gorkemaydogdu_getir"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "618786258627-os2jv2nekdmqn36tjal53qcrre0fs86o.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBzXD5OL780GfmYMiUzPE4sW_Yrvsrvffc"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "618786258627-os2jv2nekdmqn36tjal53qcrre0fs86o.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

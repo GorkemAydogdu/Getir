@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".activity.GirisActivity">
+
+    <EditText
+        android:id="@+id/editTextGirisYapEposta"
+        android:layout_width="@dimen/textwidth"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/Eposta"
+        android:hint="@string/Email"
+        android:inputType="textEmailAddress"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <EditText
+        android:id="@+id/editTextGirisyapSifre"
+        android:layout_width="@dimen/textwidth"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/editTextSifre"
+        android:hint="@string/Sifre"
+        android:inputType="textPassword"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/editTextGirisYapEposta" />
+
+    <Button
+        android:id="@+id/buttonGiris"
+        android:layout_width="@dimen/btnwidth"
+        android:layout_height="@dimen/btnheight"
+        android:layout_marginTop="@dimen/butonUyeOl"
+        android:backgroundTint="@color/color_purple"
+        android:text="@string/btnGirisYap"
+        android:textAllCaps="false"
+        android:textColor="@color/color_white"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/editTextGirisyapSifre" />
+
+    <Button
+        android:id="@+id/buttonUye"
+        android:layout_width="@dimen/btnwidth"
+        android:layout_height="@dimen/btnheight"
+        android:layout_marginBottom="@dimen/btnheight"
+        android:backgroundTint="@color/color_white"
+        android:text="@string/btnUyeOl"
+        android:textAllCaps="false"
+        android:textColor="@color/color_purple"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent" />
+</androidx.constraintlayout.widget.ConstraintLayout>

@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".activity.KayitOlActivity">
+
+    <EditText
+        android:id="@+id/editTextCepTel"
+        android:layout_width="@dimen/textwidth"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/editTextCepTel"
+        android:hint="@string/editTextCepTel"
+        android:inputType="phone"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <EditText
+        android:id="@+id/editTextSifre"
+        android:layout_width="@dimen/textwidth"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/editTextSifre"
+        android:hint="@string/editTextSifre"
+        android:inputType="textPassword"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/editTextCepTel" />
+
+    <EditText
+        android:id="@+id/editTextAdSoyad"
+        android:layout_width="@dimen/textwidth"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/editTextAdSoyad"
+        android:hint="@string/editTextAdSoyad"
+        android:inputType="textPersonName"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/editTextSifre" />
+
+    <Button
+        android:id="@+id/btn_UyeOl"
+        android:layout_width="@dimen/btnwidth"
+        android:layout_height="@dimen/btnheight"
+        android:layout_marginBottom="@dimen/butonUyeOl"
+        android:backgroundTint="@color/color_purple"
+        android:text="@string/btnUyeOl"
+        android:textAllCaps="false"
+        android:textColor="@color/color_white"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <EditText
+        android:id="@+id/editTextEposta"
+        android:layout_width="@dimen/textwidth"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/editTextEposta"
+        android:hint="@string/Email"
+        android:inputType="textEmailAddress"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/editTextAdSoyad" />
+</androidx.constraintlayout.widget.ConstraintLayout>

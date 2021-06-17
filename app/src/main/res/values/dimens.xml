@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="logo_width">200dp</dimen>
+    <dimen name="logo_height">200dp</dimen>
+
+    <dimen name="editTextCepTel">120dp</dimen>
+    <dimen name="editTextSifre">25dp</dimen>
+    <dimen name="editTextAdSoyad">25dp</dimen>
+    <dimen name="editTextEposta">25dp</dimen>
+    <dimen name="butonUyeOl">100dp</dimen>
+
+    <dimen name="btnwidth">300dp</dimen>
+    <dimen name="textwidth">300dp</dimen>
+    <dimen name="btnheight">50dp</dimen>
+
+    <dimen name="Eposta">150dp</dimen>
+
+    <dimen name="getirKapak">75dp</dimen>
+
+    <dimen name="karsilama">30dp</dimen>
+    <dimen name="karsilama_size">18sp</dimen>
+
+    <dimen name="kategori">30dp</dimen>
+    <dimen name="kategori_size">24sp</dimen>
+
+    <dimen name="searchView">50dp</dimen>
+
+    <dimen name="rv">30dp</dimen>
+    <dimen name="rvY">15dp</dimen>
+    <dimen name="rv_width">350dp</dimen>
+
+    <dimen name="cardView">100dp</dimen>
+    <dimen name="cardViewMargin">5dp</dimen>
+
+    <dimen name="kategoriWidth">100dp</dimen>
+    <dimen name="urunWidth">100dp</dimen>
+
+    <dimen name="urunler">30dp</dimen>
+
+    <dimen name="spinnerWidth">200dp</dimen>
+    <dimen name="spinnerSwitchHeight">50dp</dimen>
+
+    <dimen name="rvMatchParent">170dp</dimen>
+
+    <dimen name="urunAciklama">20dp</dimen>
+    <dimen name="urunAciklamaWidth">360dp</dimen>
+
+    <dimen name="urunDetay">350dp</dimen>
+
+    <dimen name="textSize14">14sp</dimen>
+    <dimen name="textSize18">18sp</dimen>
+    <dimen name="textSize24">24sp</dimen>
+
+</resources>
