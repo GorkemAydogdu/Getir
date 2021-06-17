@@ -11,6 +11,15 @@ Getir uygulaması
 <img src="https://raw.githubusercontent.com/GorkemAydogdu/Getir/main/Logo%26MimariYapi/PaketYapisi.png" height = "150"/>
 </p>
 
+## EKRAN GORUNTULERI
+<p align="center">
+<img src="https://raw.githubusercontent.com/GorkemAydogdu/Getir/main/app/EkranGoruntuleri/E1.png" height = "150"/>
+<img src="https://raw.githubusercontent.com/GorkemAydogdu/Getir/main/app/EkranGoruntuleri/E2.png" height = "150"/>
+<img src="https://raw.githubusercontent.com/GorkemAydogdu/Getir/main/app/EkranGoruntuleri/E3.png" height = "150"/>
+<img src="https://raw.githubusercontent.com/GorkemAydogdu/Getir/main/app/EkranGoruntuleri/E4.png" height = "150" />
+<img src="https://raw.githubusercontent.com/GorkemAydogdu/Getir/main/app/EkranGoruntuleri/E5.png" height = "150"/>
+</p>
+
 ## Projede Kullanılan Teknoloji
 <li><a href = "https://firebase.google.com">Firebase</a></li>
 
