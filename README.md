@@ -10,3 +10,6 @@ Getir uygulaması
 <p align="center">
 <img src="https://raw.githubusercontent.com/GorkemAydogdu/Getir/main/Logo%26MimariYapi/PaketYapisi.png" height = "150"/>
 </p>
+
+## Projede Kullanılan Teknolojiler
+<li><a href = "https://firebase.google.com">Firebase</a></li>
