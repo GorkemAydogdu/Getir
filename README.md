@@ -11,7 +11,7 @@ Getir uygulaması
 <img src="https://raw.githubusercontent.com/GorkemAydogdu/Getir/main/Logo%26MimariYapi/PaketYapisi.png" height = "150"/>
 </p>
 
-## EKRAN GORUNTULERI
+## Ekran Goruntuleri
 <p align="center">
 <img src="https://raw.githubusercontent.com/GorkemAydogdu/Getir/main/app/EkranGoruntuleri/E1.png" height = "150"/>
 <img src="https://raw.githubusercontent.com/GorkemAydogdu/Getir/main/app/EkranGoruntuleri/E2.png" height = "150"/>
