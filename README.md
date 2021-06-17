@@ -1,1 +1,2 @@
-"# Getir" 
+## Getir
+Getir uygulaması
